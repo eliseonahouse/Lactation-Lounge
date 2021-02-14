@@ -7,13 +7,17 @@
 
     <title>Buy Milk</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-	<script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- testimonial Carousel -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
   </head>
   <body>
@@ -21,28 +25,47 @@
     <div class="container-fluid">
 
 		<!-- Header -->	
-	<div class="row header">
-		<div class="col-md-4" id="covid">
-			<a class="btn btn-primary btn-large" href="#">COVID-19 Update</a>
+		<div class="row header">
+			<div class="col-md-4" id="covid">
+				<button type="button" class="btn btn-outline-light">COVID-19 Update</button>
+			</div>
+			<div class="col-md-4" id="logo">
+				<a href="index.html"><img src="images/logo2.png" alt="" class="img-responsive" id="logoMain"></a>
+			</div>
+			<div class="col-md-4 navIcons">
+				<a href="index.html"><img src="images/homeIcon.png" alt="..." id="homeIcon" style="padding: 5px; height: 50px;"></a>
+				<img src="images/callIcon.png" alt="..." style="padding: 5px; height: 50px;">
+				<img src="images/searchIcon.png" alt="..." style="padding: 5px; height: 50px;">
+			</div>
 		</div>
-		<div class="col-md-4" id="logo">
-			<img src="images/MMBofFLlogo.png" alt="">
-		</div>
-		<div class="col-md-4">
-		</div>
-	</div>
 
 	<!-- Navbar -->
-	<div class="row navBar">
-		<div class="col-md-3 navItem">Buy and Sell Milk
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<!-- <li class="nav-item active">
+			  <a class="nav-link" href="#">Buy and Sell Milk<span class="sr-only">(current)</span></a>
+			</li> -->
+			<li class="nav-item active">
+			  <a class="nav-link" href="milkOverview.html">Buy and Sell Milk</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="community.html">Community</a>
+			  </li>
+			<li class="nav-item">
+			<a class="nav-link" href="#">Education</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="aboutUs.html">About Us</a>
+			</li>
+		  </ul>
 		</div>
-		<div class="col-md-3 navItem">Community
-		</div>
-		<div class="col-md-3 navItem">Education
-		</div>
-		<div class="col-md-3 navItem">About Us
-		</div>
-	</div>
+	  </nav>
 
 	<!-- Content -->
 	
@@ -108,7 +131,8 @@
 							</label>
 						</div>
 						</div>
-						<button type="submit" class="btn btn-primary">Place Order</button>
+						<a class="btn btn-primary btn-lg" href="confirmation.html" role="button">Place Order</a>
+						<!-- <button type="submit" class="btn btn-primary">Place Order</button> -->
 					</form>
 				</div>
 			</div>
@@ -117,18 +141,31 @@
 	</div>
 
 	<!-- Footer -->
-	<div class="row">
-		<div class="col-md-2">
+	<div class="row footer">
+		<div class="col-md-3 footerItem" id="logoBottom">
+			<img class="mb-2" src="images/logo2.png" alt="" width="300" height="auto">
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-3 footerText">
+			<ul class="list-unstyled text-small">
+				<li><a class="link-secondary" href="aboutUs.html">About Us</a></li>
+				<li><a class="link-secondary" href="buyMilk.html">Buy/Sell Milk</a></li>
+				<li><a class="link-secondary" href="community.html">Community</a></li>
+				<li><a class="link-secondary" href="#">Education</a></li>
+			  </ul>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-3 footerText">
+			<ul class="list-unstyled text-small">
+				<li><a class="link-secondary" href="aboutUs.html">Contact Us</a></li>
+				<li><a class="link-secondary" href="aboutUs.html">Get Involved</a></li>
+				<li><a class="link-secondary" href="aboutUs.html">Testimonials</a></li>
+				<li><a class="link-secondary" href="aboutUs.html">News</a></li>
+			  </ul>
 		</div>
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-4">
+		<div class="col-md-3 footerItem">
+			<img src="images/socialicons.png" alt="" width="100" height="100">
 		</div>
 	</div>
+	
 </div>
     
   </body>
