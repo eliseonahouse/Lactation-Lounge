@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Buy Milk</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="css/style.css" rel="stylesheet">
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+		<!-- Header -->	
+	<div class="row header">
+		<div class="col-md-4" id="covid">
+			<a class="btn btn-primary btn-large" href="#">COVID-19 Update</a>
+		</div>
+		<div class="col-md-4" id="logo">
+			<img src="images/MMBofFLlogo.png" alt="">
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+
+	<!-- Navbar -->
+	<div class="row navBar">
+		<div class="col-md-3 navItem">Buy and Sell Milk
+		</div>
+		<div class="col-md-3 navItem">Community
+		</div>
+		<div class="col-md-3 navItem">Education
+		</div>
+		<div class="col-md-3 navItem">About Us
+		</div>
+	</div>
+
+	<!-- Content -->
+	
+	<div class="row milkPage">
+		<div class="col-md-6 milkCopy">
+
+			<div class="col-lg-10 mx-auto">
+
+			<h1 class="white">Safe Breast Milk Is Just a Few Clicks Away.</h1>
+			<p class="white">Breast Milk is available for purchase from Mothers’ Milk Bank of Florida in 10 ounce increments at the rate of $0.50 per ounce.  All milk is nutritionally analyzed and pasteurized.</p>
+			<p class="white">After selecting a pick-up time and date, you may place your order. Payment is due upon pick-up.</p>
+			<p class="white">Pick-Up Location:</p>
+			<img src="images/mapAddress.png" id="milkMap" alt="...">
+
+			</div>	
+
+		</div>
+
+		<div class="col-md-6 milkForm">
+
+			<!-- <div class="col-lg-10 mx-auto"> -->
+			<div class="card formBox">
+				<div class="card-body milkCard">
+					<h1 class="formTitle">Purchasing Milk Is Quick and Hassle-free.</h1>
+					<p class="formText">Pre-Order your milk for pick-up and payment at our Orlando Location.</p>
+					<form>
+						<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputState">Amount of Milk Requested</label>
+							<select id="inputOz" class="form-control">
+							<option selected>10 ounces</option>
+							<option>20 ounces</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputState">Pick-Up Date</label>
+							<select id="inputOz" class="form-control">
+							<option selected>Tuesday February 16, 2021</option>
+							<option>Wednesday February 17, 2021</option>
+							</select>
+						</div>
+						</div>
+
+						<div class="form-row accounting">
+							<div class="form-total-labels col-md-3">
+								<p>Sub-Total:</p>
+								<p>Tax:</p>
+								<p>Total:</p>
+							</div>
+							<div class="form-totals col-md-3">
+								<p>$20.00</p>
+								<p>$ 1.04</p>
+								<p>$21.04</p>
+							</div>
+							
+						</div>
+
+						<div class="form-group acceptTerms">
+						<div class="form-check col-md-8">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">
+								I accept the terms and conditions of the Mother's Milk Bank purchasing agreement.
+							</label>
+						</div>
+						</div>
+						<button type="submit" class="btn btn-primary">Place Order</button>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-4">
+		</div>
+	</div>
+</div>
+    
+  </body>
+</html>

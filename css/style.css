@@ -1,0 +1,251 @@
+/* General */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn.btn-primary.btn-lg {
+    color: black !important;
+    background-color: #84B1E0 !important;
+    border: none;
+}
+
+
+/* Homepage */
+#covid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#logoMain {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img a {
+    padding: 5px; 
+    max-height: 50%;
+}
+
+.header {
+    background-color: #84B1E0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navBar {
+    background-color: white;
+}
+
+.navIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.nav-item {
+    font-size: large !important;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+
+.news {
+    padding-bottom: 20px;
+}
+
+
+.jumbotron {
+    background-image: url("../images/babyFoot.png");
+    background-size: cover;
+    color: white;
+    height: 600px;
+  }
+
+.jumboText {
+    padding-left: 30px;
+}
+
+/* Testimonials */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/* Recent News */
+.news h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    background-color: #84B1E0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.footerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-secondary {
+    color: black !important;
+}
+
+.footerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* About Us */
+#getInvolved {
+    background-color: cadetblue;
+}
+
+.aboutItem h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#testimonials {
+    background-color: darkseagreen;
+}
+
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+  }
+
+  /* .quoteCards {
+      margin-top: none !important;
+  } */
+
+#aboutUs {
+    background-color: lightsteelblue;
+}
+
+#history {
+    background-color: thistle;
+}
+
+/* Milk Pages */
+.choiceBtns {
+    padding-top: 2em;
+}
+
+/* .milkForm {
+    background-color:bisque;
+} */
+
+.milkPage {
+    background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+.formBox {
+    margin: 3em;
+    background-color: white;
+}
+
+.milkCard {
+    padding: 2em;
+}
+
+.milkCopy {
+    padding: 50px;
+}
+
+#milkMap {
+    max-width: 75%;
+    max-height: auto;
+}
+
+.formTitle {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.form-total-labels {
+    justify-content: right;
+}
+
+.formText {
+    padding-bottom: 2em;
+}
+
+.accounting {
+    padding-top: 2em;
+}
+
+.acceptTerms {
+    padding-top: 3em;
+}
+
+h1.white {
+    padding-bottom: 1em;
+}
+
+.choiceBtns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.milkPage {
+    background-image: url(../images/babyChest.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+}
+
