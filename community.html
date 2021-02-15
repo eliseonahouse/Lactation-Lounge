@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Community</title>
 
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-	<script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- testimonial Carousel -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -21,65 +25,176 @@
 	
     <div class="container-fluid">
 	<!-- Header -->
-		<div class="row">
-			<div class="col-md-4">
-			</div>
-			<div class="col-md-4">
-			</div>
-			<div class="col-md-4">
-			</div>
+	<div class="row header">
+		<div class="col-md-4" id="covid">
+			<button type="button" class="btn btn-outline-light">COVID-19 Update</button>
 		</div>
+		<div class="col-md-4" id="logo">
+			<a href="index.html"><img src="images/logo2.png" alt="" class="img-responsive" id="logoMain"></a>
+		</div>
+		<div class="col-md-4 navIcons">
+			<a href="index.html"><img src="images/homeIcon.png" alt="..." id="homeIcon" style="padding: 5px; height: 50px;"></a>
+			<img src="images/callIcon.png" alt="..." style="padding: 5px; height: 50px;">
+			<img src="images/searchIcon.png" alt="..." style="padding: 5px; height: 50px;">
+		</div>
+	</div>
 
 	<!-- Navbar -->
-		<div class="row">
-			<div class="col-md-3">
-			</div>
-			<div class="col-md-3">
-			</div>
-			<div class="col-md-3">
-			</div>
-			<div class="col-md-3">
-			</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<!-- <li class="nav-item active">
+			  <a class="nav-link" href="#">Buy and Sell Milk<span class="sr-only">(current)</span></a>
+			</li> -->
+			<li class="nav-item">
+			  <a class="nav-link" href="milkOverview.html">Buy and Sell Milk</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="community.html">Community</a>
+			  </li>
+			<li class="nav-item">
+			<a class="nav-link" href="#">Education</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="aboutUs.html">About Us</a>
+			</li>
+		  </ul>
 		</div>
+	  </nav>
 
 <!-- jumbotron -->
+	<div class="jumbotron jumbotronCommunity">
 		<div class="row">
+			<div class="col-lg-6 col-md-8 jumboText">
+				<h2>
+					Find Your Voice. Lend an Ear. Learn from Others.
+				</h2>
+				<p>
+					Our community forum is a place to learn and grow with the help of others. This seeks to encourage, support, and educate parents nursing babies/children through their breastfeeding journey. Partners seeking advice and support are also welcome here.
+				</p>
+				</p>
+			</div>
+		</div>
+	</div>
+
+<!-- <div class="row">
 			<div class="col-md-12">
-				<div class="jumbotron">
+				<div class="jumbotron jumbotronCommunity">
 					<h2>
-						Hello, world!
+						Find Your Voice. Lend an Ear. Learn from Others.
 					</h2>
 					<p>
-						This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-					</p>
-					<p>
-						<a class="btn btn-primary btn-large" href="#">Learn more</a>
+						Our community forum is a place to learn and grow with the help of others. This seeks to encourage, support, and educate parents nursing babies/children through their breastfeeding journey. Partners seeking advice and support are also welcome here.
 					</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 <!-- Forum Content and Sidebar -->
 		<div class="row">
 			<div class="col-md-8">
+
+					<h2 style="text-align: center;">Recent Posts</h2>
+					<div class="posts">
+					<h4>
+						This is the total of my wife’s stash
+					</h4>
+					<p>Breastfeeding and supply have really been a struggle for us since LO was born, let’s give some love to the women who cannot</p>
+					<br>
+					<h4>
+						My 3.5m old baby has been refusing the boob for a couple of days now
+					</h4>
+					<p>He was doing just fine up until now! He’ll latch and suck for 1-2 mins and then spit it out and scream and cries. Takes a bottle of breast </p>
+					<br>
+					<h4>
+						She latched!
+					</h4>
+					<p>I am in total AWE as I’m writing this post. My daughter is 8 weeks old today and she just latched for the first time since we left the </p>
+					<br>
+					<h4>
+						8 month old and nursing strike
+					</h4>
+					<p>So my 8 month old is on a nursing strike, it’s almost 2pm and she hasn’t nursed since 3 am. I did give in and give her a bottle around</p>
+					<br>
+					<h4>
+						Triple Feeding and Need Support
+					</h4>
+					<p>FTM and I’m looking for advice and support. Baby is 8 weeks old and we have been working with a LC and triple feeding for over 3 weeks  </p>
+					<br>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+						  <li class="page-item">
+							<a class="page-link" href="#" aria-label="Previous">
+							  <span aria-hidden="true">&laquo;</span>
+							</a>
+						  </li>
+						  <li class="page-item"><a class="page-link" href="#">1</a></li>
+						  <li class="page-item"><a class="page-link" href="#">2</a></li>
+						  <li class="page-item"><a class="page-link" href="#">3</a></li>
+						  <li class="page-item">
+							<a class="page-link" href="#" aria-label="Next">
+							  <span aria-hidden="true">&raquo;</span>
+							</a>
+						  </li>
+						</ul>
+					  </nav>
+				</div>
+
 			</div>
+			
 			<div class="col-md-4">
+				<h2 style="text-align: center;">Find Your Community</h2>
+				<div class="row communityBtns">
+					<div class="col-md-6 comBtns">
+						<button type="button" class="btn btn-dark btn-circle btn-xl">New Parents</button>
+						<button type="button" class="btn btn-dark btn-circle btn-xl">Lactation</button>
+					</div>
+				</div>
+				<div class="row communityBtns">
+					<div class="col-md-6 comBtns">
+						<button type="button" class="btn btn-dark btn-circle btn-xl">Surrogates</button>
+						<button type="button" class="btn btn-dark btn-circle btn-xl">Families</button>
+					</div>
+				</div>
+				<div class="row communityBtns">
+					<div class="col-md-6 comBtns">
+						<button type="button" class="btn btn-dark btn-circle btn-xl">Milk Benefits</button>
+						<button type="button" class="btn btn-dark btn-circle btn-xl">Pumping</button>
+					</div>
+				</div>
 			</div>
 		</div>
 
 <!-- Footer -->
-		<div class="row">
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-4">
-			</div>
+	<div class="row footer">
+		<div class="col-md-3 footerItem" id="logoBottom">
+			<img class="mb-2" src="images/logo2.png" alt="" width="300" height="auto">
 		</div>
+		<div class="col-md-3 footerText">
+			<ul class="list-unstyled text-small">
+				<li><a class="link-secondary" href="aboutUs.html">About Us</a></li>
+				<li><a class="link-secondary" href="buyMilk.html">Buy/Sell Milk</a></li>
+				<li><a class="link-secondary" href="community.html">Community</a></li>
+				<li><a class="link-secondary" href="#">Education</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 footerText">
+			<ul class="list-unstyled text-small">
+				<li><a class="link-secondary" href="aboutUs.html">Contact Us</a></li>
+				<li><a class="link-secondary" href="aboutUs.html">Get Involved</a></li>
+				<li><a class="link-secondary" href="aboutUs.html">Testimonials</a></li>
+				<li><a class="link-secondary" href="aboutUs.html">News</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 footerItem">
+			<img src="images/socialicons.png" alt="" width="100" height="100">
+		</div>
+	</div>
 
 	</div>
    
