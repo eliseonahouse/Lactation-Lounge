@@ -19,6 +19,10 @@ h2 {
     border: none;
 }
 
+.btn.btn-primary.btn-lg:hover {
+    background-color: #8FA8C1 !important;
+}
+
 
 /* Homepage */
 #covid {
